@@ -1,0 +1,5 @@
+num = int(input("Enter Decimal Number: "))
+
+binary = bin(num)
+
+print("The binary representation of", num, "is", binary[2:])
