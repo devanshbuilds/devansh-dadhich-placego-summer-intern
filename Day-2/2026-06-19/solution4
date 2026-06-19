@@ -1,0 +1,5 @@
+num = int(input("Enter Decimal Number: "))
+
+octal = oct(num)
+
+print("The octal number of decimal number", num, "is", octal[2:])
